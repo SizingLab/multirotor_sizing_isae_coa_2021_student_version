@@ -4,6 +4,24 @@
 
 *Written by Marc Budinger (INSA Toulouse) and Scott Delbecq (ISAE-SUPAERO), Toulouse, France.*
 
+### Organization
+
+- 15/01/2021 A.M - Lecture on the **Preliminary design of mechatronic systems** (3 * 1 hour Zoom) by Marc Budinger
+- 15/01/2021 P.M - Lab work on the **Preliminary sizing of multirotor drones** (3 * 1 hour Presential)
+    * Architecture & sizing scenarios
+    * Estimation models
+    * Component sizing code (Propeller and motor)
+ - 29/01/2021 A.M - Lab work on the **Preliminary sizing of multirotor drones** (4 * 1 hour Presential)   
+    * Component sizing code (Battery/ESC and frame)
+    * System sizing code and optimization
+    
+### Evaluation
+You will be evaluated on a synthetic presentation (e.g. notebooks or Word or Powerpoint up to you) of your approach (model establishment, sizing code formulation) and analysis you will make (changing the drone architecture, comparing with existing consumer drones...). 
+You will also be asked to send your notebooks with the sizing and optimization code working.
+
+The following notebooks have two versions (Student and Teacher). The student versions have missing parts in the code that you will have to re-write.
+The sizing and optimization Teacher code is not provided. However, you have a Reference version with a compiled model to compare and verify your results.
+
 ### Table of contents
 
 ##### Architecture & sizing scenarios
@@ -25,7 +43,9 @@
     d. [Frame](05d_FrameSelection-Student.ipynb)
 
 ##### System sizing code and optimization  
-6. [Drone Sizing Code and Optimization - Student Version](06_SystemSizingCodeOptimization-Student.ipynb)
+6. 
+    a. [Drone Sizing Code and Optimization - Student Version](06_SystemSizingCodeOptimization-Student.ipynb)
+    b. [Drone Sizing Code and Optimization - Reference Version](06_SystemSizingCodeOptimization-Reference.ipynb)
 ##### Appendices  
 A1. [Quadrotor description](A1_QuadroDescription.ipynb)
 
