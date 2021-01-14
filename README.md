@@ -45,6 +45,7 @@ The sizing and optimization Teacher code is not provided. However, you have a Re
 ##### System sizing code and optimization  
 6. 
     a. [Drone Sizing Code and Optimization - Student Version](06_SystemSizingCodeOptimization-Student.ipynb)
+    
     b. [Drone Sizing Code and Optimization - Reference Version](06_SystemSizingCodeOptimization-Reference.ipynb)
 ##### Appendices  
 A1. [Quadrotor description](A1_QuadroDescription.ipynb)
@@ -59,11 +60,29 @@ More informations about Jupyter can be found [here](http://jupyter.org/).
 
 The "live" code is python 3 with numpy, scipy packages. Jupyter and a lot of scientific packages are included in the [Anaconda](https://www.anaconda.com/what-is-anaconda/) python distribution.
 
-Additional package to install:
+Dependencies:
+numpy
+scipy
+cloudpickle
+statsmodels
+matplotlib
+openpyxl
+xlrd
+pandas
+jupyterlab
 
+To install all the dependencies:
+*pip install --user -r requirements.txt*
+
+To install a single dependency:
 *pip install --user cloudpickle*
 
 *pip install  --proxy=http://proxy.isae.fr:3128 --user cloudpickle* (if connected to ISAE-SUPAERO network)
+
+To run your notebooks from the root:
+
+`jupyter notebook`
+
 
 The narrative text is formatting with markdown section. Here is a short tutorial about the use of the [markdown](http://www.markdowntutorial.com) standard.  
 

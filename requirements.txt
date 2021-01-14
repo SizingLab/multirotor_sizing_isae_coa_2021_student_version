@@ -1,0 +1,9 @@
+numpy
+scipy
+cloudpickle
+statsmodels
+matplotlib
+openpyxl
+xlrd
+pandas
+jupyterlab
